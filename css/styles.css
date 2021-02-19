@@ -5,15 +5,34 @@ html {
 
 body {
   font-family: open sans;
-  background-color: #ececec;
+  background-color: #222;
 }
 
-.back-btn,
-.contact-btn {
-  background-color: #0079bf;
-  color: #fff;
-  border-radius: 5px;
-  text-decoration: none;
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.details-rating,
+.details-genre,
+label {
+  color: white;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 1em;
 }
 
 .loader {
@@ -44,4 +63,36 @@ body {
 .form-error {
   display: none;
   color: red;
+}
+
+#contactForm {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form {
+  border-radius: 1rem;
+}
+
+input {
+  width: 100%;
+  margin-top: 2px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: #0079bf;
+  border: none;
+  width: 200px;
+  padding: 1rem;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
 }
